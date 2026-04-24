@@ -46,7 +46,9 @@ function Header() {
                         <h1 className="h1-head">The Perfect Space to</h1>
                         <h1 className="h1-head2">Enjoy Fantastic Food</h1><br />
                         <p className="p-head">Festing dining at Farthings where we are strong believers in using the very best produce</p><br /><br />
-                        <button className="btn-head">See Our Menus</button>
+                        <a className="btn-head" href="/menu">
+                            <button className="btn-head">See Our Menus</button>
+                        </a>
                         <div className="circle">
                             ▶
                         </div>

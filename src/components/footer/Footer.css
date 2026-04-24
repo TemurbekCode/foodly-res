@@ -1,0 +1,52 @@
+.footer {
+  background: #0c0c0c;
+  padding: 60px 0;
+  color: white;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  border: solid 2px orange;
+}
+
+.developer {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    text-align: center;
+  }
+
+  .footer-right {
+    align-items: center;
+  }
+}
