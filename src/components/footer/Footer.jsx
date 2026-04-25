@@ -16,8 +16,8 @@ function Footer() {
 
                 <div className="footer-right">
                     <h1>Contact Me</h1>
-                    <p><Email:p>temurbeka82@gmail.com</Email:p></p>
-                    <p><Phone:p>+998 93 703 11 21</Phone:p></p>
+                    <p>temurbeka82@gmail.com</p>
+                    <p>+998 93 703 11 21</p>
                     <div className="socials">
                         <a className="a-soc" href="https://t.me/ysnvch" target="_blank" rel="noopener noreferrer">
                             <div className="a-soci"></div>
